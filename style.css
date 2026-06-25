@@ -241,13 +241,15 @@ input {
 /* ====================== FOOTER ====================== */
 
 .footer {
+    gap: 0px ;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 10px;
     margin-top: 80px;          
     width: 100%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .footer-content {
@@ -256,7 +258,7 @@ input {
 }
 
 .footer-links {
-    margin: 10px 0 8px 0;
+    margin: 0 10px ;
 }
 
 .footer-links a {
@@ -273,9 +275,9 @@ input {
 }
 
 .footer-small {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     opacity: 0.8;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 /* Make footer stick to bottom */
@@ -288,7 +290,6 @@ body {
 main {
     flex: 1;
 }
-
 
 /* ====================== MOBILE RESPONSIVE ====================== */
 
