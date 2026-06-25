@@ -44,6 +44,7 @@ togglePasswordButton.addEventListener("click", function () {
         openEyeIcon.classList.add("hide");
     }
    
+   isPasswordVisible = !isPasswordVisible;
 });
 
 console.log(openEyeIcon);
