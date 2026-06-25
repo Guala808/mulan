@@ -238,6 +238,58 @@ input {
   
 }
 
+/* ====================== FOOTER ====================== */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 80px;          
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin: 10px 0 8px 0;
+}
+
+.footer-links a {
+    color: #a5d6ff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-small {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+/* Make footer stick to bottom */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
 /* ====================== MOBILE RESPONSIVE ====================== */
 
 @media (max-width: 768px) {
